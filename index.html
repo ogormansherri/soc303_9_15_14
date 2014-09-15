@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chapter 5 Measuring Dispersion</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Chapter 5 Measuring Dispersion">
+  <meta name="author" content="Sherri Verdugo, M.S.">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="libraries/widgets/quiz/css/demo.css"></link>
+<link rel=stylesheet href="libraries/widgets/bootstrap/css/bootstrap.css"></link>
+<link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Chapter 5 Measuring Dispersion</h1>
+    <h2>Sociology 303 September 15, 2014</h2>
+    <p>Sherri Verdugo, M.S.<br/>Instructor, CSUF</p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Administration Items</h2>
+  </hgroup>
+  <article data-timings="">
+    <ol>
+<li>Attendance (pass the roster around please)</li>
+<li>Writing Assignment Draft (visit course website for information)</li>
+<li>This Week -- Chapters 5 and 6</li>
+<li>Chapter 5 -- Measuring Dispersion</li>
+<li>Chapter 6 -- Constructingand Interpreting Contingency Tables</li>
+<li>Homework 1 is coming up... be prepared.</li>
+<li>Organize your notes and items as the semester is moving forward to limit your stress levels!</li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Key Concepts One</h2>
+  </hgroup>
+  <article data-timings="">
+    <table><thead>
+<tr>
+<th>Term</th>
+<th>Pg</th>
+<th>Brief Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Dispersion</td>
+<td>128</td>
+<td>The extent of clustering or spread of the scores around the mean.</td>
+</tr>
+<tr>
+<td>Measures of Dispersion</td>
+<td>128</td>
+<td>measures of variability that addresses degree of clustering of the scores around the mean.</td>
+</tr>
+<tr>
+<td>Range</td>
+<td>129</td>
+<td>simplest measure of dispersion that compares the highest score and the lowest score achieved for a given set of scores.</td>
+</tr>
+<tr>
+<td>Mean Deviation</td>
+<td>130</td>
+<td>an average distance that a score deviates from the mean.</td>
+</tr>
+<tr>
+<td>Average Deviation</td>
+<td>130</td>
+<td>an average distance that a score deviates from the mean.</td>
+</tr>
+<tr>
+<td>Mean Absolute Deviation</td>
+<td>130</td>
+<td>an average distance that a score deviates from the mean.</td>
+</tr>
+</tbody></table>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Key Concepts Two</h2>
+  </hgroup>
+  <article data-timings="">
+    <table><thead>
+<tr>
+<th>Term</th>
+<th>Pg</th>
+<th>Brief Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Absolute Value</td>
+<td>131</td>
+<td>Distance or difference disregarding its sign. here the distance between each value of x and the mean, regardless of whether x is greater than the mean (a positive distance) or less than the mean (a negative distance).</td>
+</tr>
+<tr>
+<td>Variance</td>
+<td>133</td>
+<td>An &quot;average&quot; or mean value of the squared deviation of the scores from the mean.</td>
+</tr>
+<tr>
+<td>Standard Deviation</td>
+<td>133</td>
+<td>The positive square root of the variance, which provides a measure of dispersion closer in size to the mean deviation.</td>
+</tr>
+<tr>
+<td>Definitional Formula</td>
+<td>136</td>
+<td>A formula that not only calculates the variance, but also defines or explains the concept. In the case of variance, the formula defines it as the average (mean) amount of the squared deviations of the scores from the mean.</td>
+</tr>
+<tr>
+<td>Computational Formula</td>
+<td>137</td>
+<td>A formula that generates a correct answer but does not seek to define what the concept, such as variance, actually is.</td>
+</tr>
+</tbody></table>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Prologue</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Comparisons of groups by a measure of central tendency may not reveal the true story of the variables. Scores may be clustered near the mean or vastly diverse and not clustered...this is why we measure dispersion in our data that we are interested in. Two data sets can have the exact same mean butcan be entirely different. To effectively describe data, we need to know the extent of variability in the data. How far are the scores spread out? Do they cluster around the mean? This information is given by the measures of dispersion. Range, interquartile range, variance, and standard deviation are the commonly used measures of dispersion.</p>
+
+<p>For this set of slides, we are looking at the low birthweight dataset (you have both the Excel and Codebook file). </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Visualizing Dispersion</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>Range is the simplest measure for dispersion that compares the highest score and lowest score achieved for a given set of scores.</li>
+</ul>
+
+<pre><code class="r">library(gdata)
+lowbirth &lt;- read.xls (&quot;clslowbwt.xls&quot;, sheet = 1, header = TRUE)
+head(lowbirth,5)
+</code></pre>
+
+<pre><code>##   ID BIRTH SMOKE RACE AGE LWT  BWT LOW
+## 1  1     1     1    3  28 120 2865   0
+## 2  1     2     1    3  33 141 2609   0
+## 3  2     1     0    1  29 130 2613   0
+## 4  2     2     0    1  34 151 3125   0
+## 5  2     3     0    1  37 144 2481   1
+</code></pre>
+
+<h3>MAX AGE = 48 and MIN AGE = 14</h3>
+
+<h3>RANGE = 48 - 14 = 34</h3>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Histogram of Age for Mothers of Babies in the Dataset</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><img src="assets/fig/unnamed-chunk-1.png" alt="plot of chunk unnamed-chunk-1"> </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>The Mean Deviation</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>The average distance that a score deviates from the mean. In other words, we are counting the distance using absolute values. This way we don&#39;t have to worry about the signs this way :)</p>
+
+<p>M.D. = \(\frac{\Sigma|x-\bar{x}|}{n}\)</p>
+
+<p>For this exercise: let&#39;s look at page 131 and see how to work with Harriet&#39;s Group.</p>
+
+<table><thead>
+<tr>
+<th>id</th>
+<th>x</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>1</td>
+<td>10</td>
+</tr>
+<tr>
+<td>2</td>
+<td>10</td>
+</tr>
+<tr>
+<td>3</td>
+<td>6</td>
+</tr>
+<tr>
+<td>4</td>
+<td>6</td>
+</tr>
+</tbody></table>
+
+<p>What is n? What is \(\bar{x}\)? What is the Mean Deviation?</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Variance</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Variance is just an average or mean value of the squared deviations of the scores from the mean.</p>
+
+<p>Var = s<sup>2</sup> = \(\frac{\Sigma(x-\bar{x})^2}{n}\)</p>
+
+<p>From the text book, let&#39;s look at page 133 to find the variance of Harriet&#39;s information.</p>
+
+<p>The mean is 8</p>
+
+<table><thead>
+<tr>
+<th>id</th>
+<th>x</th>
+<th>(x-\(\bar{x}\))</th>
+<th>(x-\(\bar{x}\))<sup>2</sup></th>
+</tr>
+</thead><tbody>
+<tr>
+<td>1</td>
+<td>10</td>
+<td>10-8=2</td>
+<td>4</td>
+</tr>
+<tr>
+<td>2</td>
+<td>10</td>
+<td>10-8=2</td>
+<td>4</td>
+</tr>
+<tr>
+<td>3</td>
+<td>6</td>
+<td>6-8=-2</td>
+<td>4</td>
+</tr>
+<tr>
+<td>4</td>
+<td>6</td>
+<td>6-8=-2</td>
+<td>4</td>
+</tr>
+</tbody></table>
+
+<p>\(\Sigma(x-\bar{x}) = 16\)</p>
+
+<p>To finish the equation: s<sup>2</sup> = \(\frac{\Sigma(x-\bar{x} = 16}{n - 4} = 4.0\)</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Standard Deviation</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>The standard deviation is just the positive square root of the variance, this gives us the measure of dispersion closer in size to the mean deviation.</p>
+
+<p>For Harriet&#39;s Group this would be</p>
+
+<p>\(\sqrt{variance} = \sqrt{s^2} = \sqrt{4} = 2\)</p>
+
+<p>We can do this for all items in a dataset using SPSS. </p>
+
+<p>Caveat: </p>
+
+<p>This is the most important formula in statistics</p>
+
+<ul>
+<li>But read on page 24 of the SPSS Guide that &quot;for theoretical reasons&quot; (n-1) is used in the demoninator to compute the standard devation, not n.</li>
+<li>Indeed, SPSS routinely uses n-1 and not n when it computes the standard deviation.</li>
+<li>But for now, learn this formula as the definition of the standard deviation.</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Computational Formula: Variance and Standard Deviation</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>A computational formula that generates a correct answer but does not seek to define what the concept, such as variance, actually is.</p>
+
+<p>Variance (Computational): Var = s<sup>2</sup> = \(\frac{\Sigma(x^2-\frac{(\Sigma x^2)}{n}}{n}\)</p>
+
+<p>Standard Deviation: sdev = s = \(\sqrt{variance}\) = \(\sqrt{s^2}\) </p>
+
+<p>How does the computational equation help you in calculating the variance?</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Definitional Formulas: Variance and Standard Deviation</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>A definitional formula generates the correct answer and also defines or explains the concept. In the case of variance...the formula defines it as the average (mean) amount of the squared deviations of the scores from the mean. </p>
+
+<p>Variance (Definitional): Var = s<sup>2</sup> = \(\frac{\Sigma(x-\bar{x})^2}{n}\)</p>
+
+<p>Standard Deviation: sdev = s = \(\sqrt{variance}\) = \(\sqrt{s^2}\) </p>
+
+<p>How does the definitional equation help you in calculating the variance?</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Frequency Distributions: Variance and Standard Deviation Page 139</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>In the case of frequency distributions, we run into a slight problem if we use the formulas listed in the previous slides. To calculate we need the following equations: </p>
+
+<p>Variance (Definitional): s<sup>2</sup> = \(\frac{\Sigma[(x-\bar{x})^2 f]}{n}\) = \(\frac{\Sigma[(x-\bar{x})^2 f]}{\Sigma f}\)</p>
+
+<p>Variance (Computational): s<sup>2</sup> = \(\frac{\Sigma x^2f - \frac{(\Sigma fx)^2}{n}}{n}\) = \(\frac{\Sigma x^2f - \frac{(\Sigma fx)^2}{\Sigma f}}{\Sigma f}\)</p>
+
+<p>Standard Deviation: sdev = s = \(\sqrt{variance}\) = \(\sqrt{s^2}\) </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Frequency Distributions: Variance and Standard Deviation Page 139</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Let&#39;s work the text book example for Group B:</p>
+
+<table><thead>
+<tr>
+<th>id</th>
+<th>x</th>
+<th>f</th>
+<th>fx</th>
+<th>\(\bar{x}\)</th>
+<th>\((x-\bar{x})\)</th>
+<th>\((x-\bar{x})^2\)</th>
+<th>\((x-\bar{x})^2 f\)</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>1</td>
+<td>9</td>
+<td>2</td>
+<td>18</td>
+<td>7.50</td>
+<td>1.50</td>
+<td>2.25</td>
+<td>2.25 X 2 = 4.50</td>
+</tr>
+<tr>
+<td>2</td>
+<td>8</td>
+<td>3</td>
+<td>24</td>
+<td>7.50</td>
+<td>0.50</td>
+<td>0.25</td>
+<td>0.25 X 3 = 0.75</td>
+</tr>
+<tr>
+<td>3</td>
+<td>7</td>
+<td>3</td>
+<td>21</td>
+<td>7.50</td>
+<td>-0.50</td>
+<td>0.25</td>
+<td>0.25 X 3 = 0.75</td>
+</tr>
+<tr>
+<td>4</td>
+<td>6</td>
+<td>2</td>
+<td>12</td>
+<td>7.50</td>
+<td>-1.5</td>
+<td>2.25</td>
+<td>2.25 X 2 = 4.50</td>
+</tr>
+</tbody></table>
+
+<p>n = \(\Sigma f = 10\) and \(\Sigma fx = 75\)</p>
+
+<p>\(\bar{x}=\frac{\Sigma fx}{n} = \frac{\Sigma fx}{\Sigma f} = \frac{75}{10} = 7.50\)</p>
+
+<p>\(\Sigma[(x - \bar{x})^2 f] = 10.50\)</p>
+
+<p>S<sup>2</sup> = \(\frac{10.50}{10} = 1.05\) and the Standard Deviation, S = \(\sqrt{Variance} = \sqrt{1.05} = 1.0246 = 1.03\)</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Formulas of Interest</h2>
+  </hgroup>
+  <article data-timings="">
+    <h3>Individual Data</h3>
+
+<p>The Mean Deviation: M.D. = \(\frac{\Sigma|x-\bar{x}|}{n}\)</p>
+
+<p>Variance (Definitional): Var = s<sup>2</sup> = \(\frac{\Sigma(x-\bar{x})^2}{n}\)</p>
+
+<p>Variance (Computational): Var = s<sup>2</sup> = \(\frac{\Sigma(x^2-\frac{(\Sigma x^2)}{n}}{n}\)</p>
+
+<p>Standard Deviation: sdev = s = \(\sqrt{variance}\) = \(\sqrt{s^2}\) </p>
+
+<h3>Frequency Distributions</h3>
+
+<p>Variance (Definitional): s<sup>2</sup> = \(\frac{\Sigma[(x-\bar{x})^2 f]}{n}\) = \(\frac{\Sigma[(x-\bar{x})^2 f]}{\Sigma f}\)</p>
+
+<p>Variance (Computational): s<sup>2</sup> = \(\frac{\Sigma x^2f - \frac{(\Sigma fx)^2}{n}}{n}\) = \(\frac{\Sigma x^2f - \frac{(\Sigma fx)^2}{\Sigma f}}{\Sigma f}\)</p>
+
+<p>Standard Deviation: sdev = s = \(\sqrt{variance}\) = \(\sqrt{s^2}\) </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Class Exercise as a Group</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Read in the clslowbwt.xls file. First let&#39;s view the text files so that we can see what we are looking at. Let&#39;s look at the data and find the measures of dispersion that occurs in the dataset.</p>
+
+<p>Do you think age plays a factor in determining low birth weight? How about smoking status? Can we use the Measures of Central Tendency and Measures of Dispersion to guide our analysis of the data?</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Next Time</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>Recap of previous weeks</li>
+<li>Chapter 6 -- Constructing and Interpreting Contingency Tables</li>
+<li>SPSS lab using chapter 5 and 6....</li>
+<li>More SPSS and Excel interaction</li>
+<li>Homework 1 is coming up</li>
+<li>Writing Draft (let&#39;s talk about what you want to analyze)</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Administration Items'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Key Concepts One'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Key Concepts Two'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Prologue'>
+         4
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=5 title='Visualizing Dispersion'>
+         5
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=6 title='Histogram of Age for Mothers of Babies in the Dataset'>
+         6
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=7 title='The Mean Deviation'>
+         7
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=8 title='Variance'>
+         8
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=9 title='Standard Deviation'>
+         9
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=10 title='Computational Formula: Variance and Standard Deviation'>
+         10
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=11 title='Definitional Formulas: Variance and Standard Deviation'>
+         11
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=12 title='Frequency Distributions: Variance and Standard Deviation Page 139'>
+         12
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=13 title='Frequency Distributions: Variance and Standard Deviation Page 139'>
+         13
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=14 title='Formulas of Interest'>
+         14
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=15 title='Class Exercise as a Group'>
+         15
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=16 title='Next Time'>
+         16
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  <script src="libraries/widgets/quiz/js/jquery.quiz.js"></script>
+<script src="libraries/widgets/quiz/js/mustache.min.js"></script>
+<script src="libraries/widgets/quiz/js/quiz-app.js"></script>
+<script src="libraries/widgets/bootstrap/js/bootstrap.min.js"></script>
+<script src="libraries/widgets/bootstrap/js/bootbox.min.js"></script>
+
+  <!-- MathJax: Fall back to local if CDN offline but local image fonts are not supported (saves >100MB) -->
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        processEscapes: true
+      }
+    });
+  </script>
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  <!-- <script src="https://c328740.ssl.cf1.rackcdn.com/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script> -->
+  <script>window.MathJax || document.write('<script type="text/x-mathjax-config">MathJax.Hub.Config({"HTML-CSS":{imageFont:null}});<\/script><script src="libraries/widgets/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"><\/script>')
+</script>
+<script>  
+  $(function (){ 
+    $("#example").popover(); 
+    $("[rel='tooltip']").tooltip(); 
+  });  
+  </script>  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
